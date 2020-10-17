@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@900&display=swap');
+
+:root {
+  --green: #19d3da;
+  --gray: #686d76;
+  --black: #373a40;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, 'sans-serif';
+  color: var(--gray);
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Nunito, 'sans-serif';
+}
+
+h1 {
+  margin-bottom: 0.4em;
+  font-size: 40px;
+  color: var(--black);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+nav {
+  background: var(--green);
+  padding: 0.5em 0;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar--left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin-right: 2em;
+}
+
+.navbar__links {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar__links li {
+  margin-left: 1em;
+}
+
+.navbar__links li a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+
+.btn--light {
+  background: var(--white);
+  color: var(--green);
+}
+
+.btn--light:hover {
+  background: var(--green);
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.btn--primary {
+  color: var(--white);
+  background: var(--green);
+}
+
+.btn--primary:hover {
+  background: var(--white);
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+main {
+  margin: 5em auto;
+  max-width: 1200px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__text {
+  width: 40%;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature__icon {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.feature__icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: var(--green);
+}
+
+.feature__title {
+  margin-bottom: 0.8em;
+}

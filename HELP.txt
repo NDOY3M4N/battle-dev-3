@@ -1,0 +1,11 @@
+color: { #19D3DA; #686D76; #373A40; #FFFFFF }
+
+font: { "Nunito", "https://fonts.google.com/specimen/Nunito" }
+font: { "Inter", "https://fonts.google.com/specimen/Inter" }
+
+text: { "SEN BAT est une société spécialisée dans la construction de bâtiments et de travaux publics" }
+text: { "La référence du secteur au Sénégal" }
+
+text: { "Avec nos spécialistes et une équipe d’experts engagés pour vous servir pour la réussite de votre projet." }
+text: { "Une sélection des meilleures marques pour vous assurer le meilleur rapport qualité/prix." }
+text: { "Nos produits respectent les normes internationales et vous garantissent un résultat parfait." }
